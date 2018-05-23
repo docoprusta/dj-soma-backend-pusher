@@ -1,0 +1,21 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.python.org/simple"
+name = "pypi"
+
+[dev-packages]
+pylint = "*"
+"autopep8" = "*"
+
+[packages]
+Flask = "==0.12.2"
+Flask-Cors = "==3.0.3"
+Flask-SocketIO = "==2.9.3"
+psutil = "*"
+requests = "*"
+isodate = "*"
+pusher = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.5"
